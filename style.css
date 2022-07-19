@@ -215,6 +215,29 @@ article .thu {
   list-style: none;
   font-size: 16px;
 }
+.footer .social {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.footer .social a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.footer .social i {
+  background-color: #22213c;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.footer .social i:hover {
+  color: #22213c;
+  background-color: #ffffff;
+}
 /* footer section end */
 
 /* mobile device start */
