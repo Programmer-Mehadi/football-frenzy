@@ -157,6 +157,21 @@ article .thu {
 .comment span {
   opacity: 70%;
 }
+.view-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.view-all-btn {
+  background-color: #dd0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+  display: none;
+  font-size: 20px;
+}
 /* filter section end */
 /* footer section start */
 .footer {
@@ -225,6 +240,7 @@ article .thu {
   article img {
     width: 100%;
   }
+
   .bottom-nav nav ul {
     flex-direction: column;
     row-gap: 20px;
@@ -246,13 +262,8 @@ article .thu {
     font-size: 30px;
     line-height: 35px;
   }
-  .top-section-p {
-    padding: 0 20px;
-  }
+
   .left-width {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
   }
   .filter .container {
@@ -277,6 +288,9 @@ article .thu {
   }
   article img {
     width: 100%;
+  }
+  .view-all-btn {
+    display: block;
   }
   .bottom-nav nav ul {
     flex-direction: row;
