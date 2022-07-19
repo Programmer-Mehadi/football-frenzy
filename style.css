@@ -80,7 +80,7 @@
 .filter .container {
   width: 100%;
   display: grid;
-  grid-template-columns: 18% 81%;
+  grid-template-columns: 300px 1fr;
   column-gap: 1%;
   row-gap: 1%;
 }
