@@ -224,11 +224,13 @@ article .thu {
   font-size: 16px;
 }
 .footer .social {
-  margin-top: 10px;
+  width: 90%;
+  margin: 10px auto 0px auto;
   font-size: 20px;
   color: #ffffff;
   display: flex;
   justify-content: center;
+  column-gap: 15px;
 }
 .footer .social a {
   color: #ffffff;
@@ -237,7 +239,6 @@ article .thu {
 }
 .footer .social i {
   background-color: #22213c;
-  margin-right: 20px;
   padding: 10px;
   border-radius: 50px;
   cursor: pointer;
